@@ -93,7 +93,7 @@ content='Hello! How can I assist you today?' additional_kwargs={} example=False
 1. 以下系统命令安装必要的Python包，langchain和openai。
 
   ```shell
-  pip install langchain==0.0.235 openai
+  pip install langchain==0.0.235 openai==0.28.2
   ```
 
 2. 以下代码将OpenAI的API Key设置在环境变量中。默认情况下，Langchain会从环境变量 `OPENAI_API_KEY` 中读取API Key。注意，在代码中直接嵌入API Key明文并不安全，切勿将API Key直接提交到代码仓库。我们建议利用.env文件和python-dotenv包来管理API Key。
